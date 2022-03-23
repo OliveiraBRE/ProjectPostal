@@ -1,0 +1,21 @@
+.btn {
+  width: 18%;
+  min-width: 10vw;
+  height: inherit;
+  min-height: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: #fff;
+  font-size: 1.6rem;
+  background-color: #00416b;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  margin-left: 1.5rem;
+}
+
+.btn:active {
+  transform: translateY(0.1rem);
+}

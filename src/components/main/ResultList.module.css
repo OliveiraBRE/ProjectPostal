@@ -1,0 +1,39 @@
+.item {
+  display: flex;
+  align-items: center;
+  margin: 2.5% 0;
+}
+
+.avatar {
+  width: 8rem;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+
+.descriptions {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.descriptions h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  color: #00416b;
+}
+
+.descriptions p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.3rem;
+  color: #414141;
+}
+
+.hasntValue {
+  display: none;
+}

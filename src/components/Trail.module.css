@@ -1,0 +1,79 @@
+.form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contents,
+.city,
+.state {
+  width: inherit;
+  display: flex;
+  align-items: flex-end;
+}
+
+.contents {
+  margin: 2rem 0;
+}
+
+.city {
+  width: 300%;
+}
+
+.state {
+  margin-left: 4rem;
+}
+
+.contents label,
+.city label,
+.state label {
+  margin-right: 1.5rem;
+  font-size: 2rem;
+}
+
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4rem;
+}
+
+.number {
+  height: 3rem;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #00416b;
+}
+
+.return {
+  display: flex;
+  justify-content: center;
+}
+
+#return__object--number {
+  width: 50%;
+  margin: 5% 0 4%;
+}
+
+.return__select {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.return__select label {
+  margin-right: 4%;
+}
+
+.return__motive {
+  width: 56%;
+  height: 3.5rem;
+  border-radius: 0.4rem;
+  font-size: 1.6rem;
+}
+
+select {
+  border: 0.1rem solid #00416b;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+}

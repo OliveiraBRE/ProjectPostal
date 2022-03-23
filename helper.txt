@@ -1,0 +1,1 @@
+<img src={process.env.PUBLIC_URL + "./image/login.png"} alt="login" />

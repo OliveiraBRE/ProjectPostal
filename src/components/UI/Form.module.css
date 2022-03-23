@@ -1,0 +1,19 @@
+.research__form {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  margin: 2rem 0 2rem;
+}
+
+.research__form input {
+  width: 100%;
+  padding: 1rem 0 1rem 1rem;
+  border: 0.1rem solid #00416b;
+  border-radius: 0.4rem;
+  font-size: 1.8rem;
+}
+
+.research__form select {
+  margin-left: 0.8rem;
+  width: 37rem;
+}

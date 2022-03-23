@@ -1,0 +1,48 @@
+.header,
+.footer {
+  width: 100vw;
+  height: 7.35rem;
+  display: flex;
+  justify-content: center;
+  background-color: #00416b;
+  color: #bbb;
+}
+
+.container {
+  width: 90vw;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__login {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  font-size: 1.2rem;
+}
+
+.footer p {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  width: 18%;
+  min-width: 10vw;
+  height: inherit;
+  min-height: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: #fff;
+  font-size: 1.6rem;
+  background-color: #00416b;
+  border-radius: 0.4rem;
+  margin-left: 1.5rem;
+  text-decoration: none;
+}

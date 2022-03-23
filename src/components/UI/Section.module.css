@@ -1,0 +1,6 @@
+.section {
+  width: 100vw;
+  min-height: 77.6vh;
+  display: flex;
+  justify-content: center;
+}
